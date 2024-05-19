@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shon-Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="cursor">
+
+    </div>
+
+
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <header class="header">
+        <a href="#" class="logo cursor-scale">Shon</a>
+        
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active cursor-scale">Home</a>
+            <a href="#about" class="cursor-scale">About</a>
+            <a href="#services" class="cursor-scale">Services</a>
+            <a href="#portfolio" class="cursor-scale">Portfolio</a>
+            <a href="#contact" class="cursor-scale">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+
+            <h3 class="cursor-scale">Hi, Myself</h3>
+            <h1 class="cursor-scale small">Shon Fernandes</h1>
+            <h3 class="cursor-scale small">And I'm a <span class="multiple-text"></span></h3>
+            <p class="cursor-scale small">I am a passionate coder who loves diving into exciting projects that capture my interest. I'm always eager to learn new things and bring fresh ideas to the table, ensuring that I can contribute effectively to the organization’s success.</p>
+                <div class="social-media">
+                <a href="https://www.instagram.com/shawnferns04?utm_source=qr&igsh=MWFybGduOGVlOTcwaA=="><i class="fa-brands fa-instagram cursor-scale"></i></a>
+                <a href="https://www.linkedin.com/in/shon-fernandes-521835237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin "></i></a>
+            </div>
+            <a href="" class="btn ">Download CV</a>
+            <a href="https://github.com/Shawnferns004" class="btn2 ">Github <i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/profile.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about-pic.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading cursor-scale small">About <span>Me</span></h2>
+            <h3 >Web Developer</h3>
+            <p class="cursor-scale">I am a coding enthusiast from Mumbai, currently pursuing my engineering degree at St. Francis Institute of Technology, Borivali. My interest in coding began in 11th grade and has since evolved into a passion. This led me to pursue a career in engineering with a focus on coding. I aspire to become a software developer and am eager to work on innovative projects.</p>
+            <a href="" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading cursor-scale small">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Dynamic web developer and designer dedicated to creating visually stunning and highly functional websites. Combining technical expertise with creativity to deliver engaging user experiences. Constantly exploring new design trends and development techniques to push boundaries and exceed expectations.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python Projects</h3>
+                <p>Passionate Python developer dedicated to crafting efficient and innovative solutions. Committed to excellence in software development and continuously seeking new challenges to enhance skills and knowledge..</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>DataBase</h3>
+                <p>Proficient database architect adept at designing robust and scalable database systems. Experienced in optimizing data storage and retrieval processes to ensure optimal performance and reliability. Dedicated to implementing secure and efficient database solutions tailored to meet diverse project requirements.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading cursor-scale small">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/image.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Personal Portfolio</h4>
+                    <p>This website serves as my portfolio, showcasing my social media profiles, projects, and personal details.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/img.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Schedule X</h4>
+                    <p>This project is built using Python and focuses on managing timetables. It features automatic timetable generation and includes pages for student and teacher intake.</p>
+                    <a href="https://github.com/Shawnferns004/SCHEDULE--X"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   <section class="contact" id="contact">
+    <h2 class="heading cursor-scale small">Contact <span>Me</span></h2>
+    <form onsubmit="return false">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" id="name">
+            <input type="email" for="email" placeholder="Email Address" id="email">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile number" for="phone" id="phone">
+            <input type="text" placeholder="Email Subject" for="subject" id="subject">
+        </div>
+        <textarea name="" id="message" cols="30" for="messagw" rows="10" placeholder="Your Message"></textarea>
+        <input pys-onClick="sub" type="submit" value="Send Message" id="submit" class="btn">
+    </form>
+   </section>
+
+
+
+   <footer class="footer">
+    <div class="footer-text cursor-scale">
+        <p>Copyright &copy; 2024 by ShonFerns | All rights reserved.</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+   </footer>
+
+
+    <script src="js/cursor.js"></script>
+    <script src="js/index.js"></script>
+    <py-script src="index.py"></py-script>
+    
+
+</body>
+</html>
